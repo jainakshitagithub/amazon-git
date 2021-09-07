@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+                    .progressbar{
+                        background-color: red;
+                        height:2px;
+                        animation:progressian 3s ease-in 1s 1 ;
+                    }
+                    @keyframes progressian{
+                        0%{
+                            width:0vw;
+                        }
+                        40%{
+                            width:20vw;
+                        }
+                        90%{
+                            width:90vw;
+                        }
+                        100%{
+                            width:100vw;
+                        }
+                    }
+                   
+header {
+    background-color: black;
+    color:white;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+   
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.logo img{
+    display: flex;
+    width:6vw;
+    margin: 2vh 0px 0px 1vh;
+}
+.logo img:hover{
+    border:1px solid white;
+cursor: pointer;
+}
+.logolist{
+    display: inline-flex;
+}
+
+.map_marker{
+margin-left:1vw;
+}
+.map_marker:hover{
+border:2px solid white ;
+cursor: pointer;
+}
+.searchbox input{
+    width: 50vw;
+    line-height: 2;
+    margin-left: 2vw;
+    margin-top:1vh;
+}
+
+.lang{
+    margin-left:2vw;
+    background-color: black;
+    color:white;
+    border-radius: 3px;
+}
+.lang:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+.new{
+    margin-left:1vw;
+    background-color: black;
+    color:white;
+    border-radius: 3px;
+width:7vw;
+}
+.new:hover{
+    cursor:pointer;
+    border:2px solid white;
+    
+}
+.returns{
+    margin-left:2vw;
+}
+.returns:hover{
+    border:2px solid white;
+cursor: pointer;
+}
+.cart{
+    margin-left:2vw;
+font-size: large;
+}
+.cart:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+
+
+.container{
+    height:calc(100vh-header-footer);
+    background-color: grey;
+}
+.contain{
+    background-color: white;
+}
+.headings{
+  font-size: 3vh;
+    font-family: 'Inter', sans-serif;
+    margin:2vw;
+}
+.carditem{
+    display: flex;
+    margin:1vw;
+    overflow: scroll;
+}
+
+.card1:hover{
+    background-color: lightblue;
+    transform:rotateX(20deg);
+}
+
+footer{
+    background-color: black;
+    color:white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
